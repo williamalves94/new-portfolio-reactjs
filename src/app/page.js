@@ -20,19 +20,19 @@ export default function Home() {
           <div>
             <div className="flex flex-col p-2 mt-4">
               <Button className="bg-zinc-500 font-bold" variant="outline">
-                Home
+                Inicio
               </Button>
-              <Button className="mt-4 bg-zinc-500 font-bold" variant="outline">
-                About
+              <Button className="mt-5 bg-zinc-500 font-bold" variant="outline">
+                Sobre
               </Button>
-              <Button className="mt-4 bg-zinc-500 font-bold" variant="outline">
-                Experiences
+              <Button className="mt-5 bg-zinc-500 font-bold" variant="outline">
+                Experiencias
               </Button>
-              <Button className="mt-4 bg-zinc-500 font-bold" variant="outline">
-                Projects
+              <Button className="mt-5 bg-zinc-500 font-bold" variant="outline">
+                Projetos
               </Button>
-              <Button className="mt-4 bg-zinc-500 font-bold" variant="outline">
-                Contact
+              <Button className="mt-5 bg-zinc-500 font-bold" variant="outline">
+                Contato
               </Button>
             </div>
           </div>
