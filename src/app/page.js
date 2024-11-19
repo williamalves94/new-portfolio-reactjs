@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
@@ -9,24 +10,40 @@ export default function Home() {
             <Image
               src="/images/perfil-one.jpg"
               alt="desc"
-              width={200}
-              height={200}
+              width={180}
+              height={150}
             />
             <div className="bg-zinc-500 p-1 text-center">
-              <div className="">William Alves</div>
+              <div className="font-bold">William Alves</div>
             </div>
           </header>
-          <div>Home</div>
-          <div>About</div>
-          <div>Experiences</div>
-          <div>Projects</div>
-          <div>Contact</div>
+          <div>
+            <div className="flex flex-col p-2 mt-4">
+              <Button className="bg-zinc-500 font-bold" variant="outline">
+                Home
+              </Button>
+              <Button className="mt-4 bg-zinc-500 font-bold" variant="outline">
+                About
+              </Button>
+              <Button className="mt-4 bg-zinc-500 font-bold" variant="outline">
+                Experiences
+              </Button>
+              <Button className="mt-4 bg-zinc-500 font-bold" variant="outline">
+                Projects
+              </Button>
+              <Button className="mt-4 bg-zinc-500 font-bold" variant="outline">
+                Contact
+              </Button>
+            </div>
+          </div>
         </aside>
-        <main className="flex-1">main</main>
+        <main className="flex-1">
+          <div className="flex flex-col">
+            <span>William Alves</span>
+            <span>Eu sou um desenvolvedor front-end</span>
+          </div>
+        </main>
       </div>
-      <footer className="bg-zinc-800 border-t border-zinc-700 p-3">
-        footer
-      </footer>
     </div>
   );
 }
