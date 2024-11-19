@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -19,12 +20,19 @@ export default function Home() {
           </header>
           <div>
             <div className="flex flex-col p-2 mt-4">
-              <Button className="bg-zinc-500 font-bold" variant="outline">
-                Inicio
-              </Button>
-              <Button className="mt-5 bg-zinc-500 font-bold" variant="outline">
-                Sobre
-              </Button>
+              <Link href="/" passHref>
+                <Button className="bg-zinc-500 font-bold" variant="outline">
+                  Inicio
+                </Button>
+              </Link>
+              <Link href="/about" passHref>
+                <Button
+                  className="mt-5 bg-zinc-500 font-bold"
+                  variant="outline"
+                >
+                  Sobre
+                </Button>
+              </Link>
               <Button className="mt-5 bg-zinc-500 font-bold" variant="outline">
                 Experiencias
               </Button>
