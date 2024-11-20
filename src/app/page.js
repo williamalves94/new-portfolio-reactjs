@@ -67,10 +67,20 @@ export default function Home() {
             </div>
           </div>
         </aside>
-        <main className="flex-1">
-          <div className="flex flex-col">
-            <span>William Alves</span>
-            <span>Eu sou um desenvolvedor front-end</span>
+        <main className="relative flex-1">
+          <Image
+            src="/images/image-tech-main.jpg" // Caminho da imagem na pasta pública
+            alt="Fundo"
+            layout="fill" // Preenche o elemento pai
+            objectFit="cover" // Ajusta a imagem para cobrir todo o espaço
+            quality={100} // Define a qualidade da imagem
+            className="-z-10" // Coloca a imagem atrás do conteúdo
+          />
+          <div className="flex flex-col mt-64 ms-20">
+            <h1 className="text-7xl text-white">William Alves</h1>
+            <h1 className="text-4xl text-white">
+              Eu sou um desenvolvedor front-end
+            </h1>
           </div>
         </main>
       </div>
