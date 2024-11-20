@@ -21,27 +21,49 @@ export default function Home() {
           <div>
             <div className="flex flex-col p-2 mt-4">
               <Link href="/" passHref>
-                <Button className="bg-zinc-500 font-bold" variant="outline">
+                <Button
+                  className="bg-zinc-500 font-bold w-full"
+                  variant="outline"
+                >
                   Inicio
                 </Button>
               </Link>
+
               <Link href="/about" passHref>
                 <Button
-                  className="mt-5 bg-zinc-500 font-bold"
+                  className="mt-5 bg-zinc-500 font-bold w-full"
                   variant="outline"
                 >
                   Sobre
                 </Button>
               </Link>
-              <Button className="mt-5 bg-zinc-500 font-bold" variant="outline">
-                Experiencias
-              </Button>
-              <Button className="mt-5 bg-zinc-500 font-bold" variant="outline">
-                Projetos
-              </Button>
-              <Button className="mt-5 bg-zinc-500 font-bold" variant="outline">
-                Contato
-              </Button>
+
+              <Link href="/experiences" passHref>
+                <Button
+                  className="mt-5 bg-zinc-500 font-bold w-full"
+                  variant="outline"
+                >
+                  Experiencias
+                </Button>
+              </Link>
+
+              <Link href="/projects" passHref>
+                <Button
+                  className="mt-5 bg-zinc-500 font-bold w-full"
+                  variant="outline"
+                >
+                  Projetos
+                </Button>
+              </Link>
+
+              <Link href="/contact" passHref>
+                <Button
+                  className="mt-5 bg-zinc-500 font-bold w-full"
+                  variant="outline"
+                >
+                  Contato
+                </Button>
+              </Link>
             </div>
           </div>
         </aside>
