@@ -1,6 +1,6 @@
 export default function Header({ title }) {
   return (
-    <header className="p-4 bg-blue-500 text-white">
+    <header className="p-6 bg-zinc-700 text-white text-3xl">
       <h1>{title}</h1>
     </header>
   );
