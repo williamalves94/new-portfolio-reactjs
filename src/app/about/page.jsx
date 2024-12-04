@@ -5,11 +5,11 @@ import { Button } from "@/components/ui/button";
 export default function AboutPage() {
   return (
     <Layout>
-      <div className="bg-zinc-950 h-full">
+      <div className="bg-zinc-800 h-full">
         <Header title="Sobre" />
-        <div className="p-4 border-2 ">
-          <div className="flex p-5 border-2 border-blue-50">
-            <div className="flex-1 border-2 border-red-600 p-5">
+        <div className="p-4">
+          <div className="flex p-5">
+            <div className="flex-1 p-5">
               <h1 className="text-white text-2xl mt-5 mb-5">
                 Desenvolvedor Front-end
               </h1>
@@ -25,7 +25,7 @@ export default function AboutPage() {
                 Desenvolvedor Front-end ReactJS.
               </h1>
             </div>
-            <div className="flex-1 text-white border-2 border-red-300 p-5">
+            <div className="flex-2 text-white p-5">
               <ul>
                 <h1 className="text-2xl mt-5 mb-5">Informações Pessoais</h1>
                 <li className="mb-2">Nome: William Alves</li>
@@ -37,7 +37,7 @@ export default function AboutPage() {
                 <li>Telefone: +55 (15) 99778-1428</li>
               </ul>
               <Button
-                className="bg-yellow-400 font-bold w-80 mt-4"
+                className="bg-zinc-800 font-bold w-80 mt-4"
                 variant="outline"
               >
                 Baixar CV
@@ -46,7 +46,7 @@ export default function AboutPage() {
           </div>
         </div>
 
-        <div className=" text-white bg-zinc-950 ms-14">
+        <div className=" text-white bg-zinc-800 ms-14">
           <h1 className="text-2xl">Principais competências</h1>
 
           <div className="flex mt-2">
