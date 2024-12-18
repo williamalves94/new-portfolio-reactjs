@@ -4,39 +4,54 @@ import Layout from "@/components/layout/layout";
 export default function ExperiencesPage() {
   return (
     <Layout>
-      <div>
+      <div className="bg-zinc-800 h-full">
         <Header title="Experiências" />
-        <div className="border-t-yellow-400">
-          <div>
-            <h1>Desenvolvedor Front-end ReactJS Na PlugWin Sistemas</h1>
-            <span>Meruoca, Ceará, Brasil</span>
-            <p>
-              Desenvolvi o Front-end do projeto utilizando HMTL, CSS e Bootstrap
-              5.
-            </p>
+        <div className="border-yellow-400 border-2 flex flex-col text-white mt-10">
+          <div className="flex ms-40">
+            <div className="flex flex-col">
+              <span>Outubro/2024</span>
+              <span>Julho/2024</span>
+            </div>
+            <div>
+              <h1>Desenvolvedor Front-end ReactJS Na PlugWin Sistemas</h1>
+              <span>Meruoca, Ceará, Brasil</span>
+              <p>
+                Desenvolvi o Front-end do projeto utilizando HMTL, CSS e
+                Bootstrap 5.
+              </p>
+            </div>
           </div>
-          <div className="mt-5">
-            <h1>
-              Desenvolvedor Front-end Júnior ReactJS Na Bacic Commerce Serviços
-              de Informações da Internet LTDA.
-            </h1>
-            <span>São Paulo, Brasil</span>
-            <p>
-              Desenvolvi as telas de interfaces do usuário, Requisição http e
-              integração com API REST
-            </p>
+          <div className="flex ms-40">
+            <div className="flex flex-col">
+              <span>Outubro/2024</span>
+              <span>Julho/2024</span>
+            </div>
+            <div>
+              <h1>
+                Desenvolvedor Front-end Júnior ReactJS Na Bacic Commerce
+                Serviços de Informações da Internet LTDA.
+              </h1>
+              <span>Meruoca, Ceará, Brasil</span>
+              <p>
+                Desenvolvi o Front-end do projeto utilizando HMTL, CSS e
+                Bootstrap 5.
+              </p>
+            </div>
           </div>
-          <div className="mt-5">
-            <h1>
-              Desenvolvedor Front-end Júnior ReactJS Na Bihands Tecnologia e
-              Soluções RFID
-            </h1>
+          <div className="flex ms-40">
+            <div className="flex flex-col">
+              <span>Outubro/2024</span>
+              <span>Julho/2024</span>
+            </div>
+            <div>
+              <h1>Desenvolvedor Front-end ReactJS Na PlugWin Sistemas</h1>
+              <span>Meruoca, Ceará, Brasil</span>
+              <p>
+                Desenvolvi o Front-end do projeto utilizando HMTL, CSS e
+                Bootstrap 5.
+              </p>
+            </div>
           </div>
-          <span>Sorocaba, São Paulo, Brasil</span>
-          <p>
-            Requisição HTTP, Integração com API usando Axios, e algumas
-            alterações e correções no código do projeto.
-          </p>
         </div>
       </div>
     </Layout>
