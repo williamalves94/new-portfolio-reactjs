@@ -5,8 +5,8 @@ import { Button } from "@/components/ui/button";
 export default function AboutPage() {
   return (
     <Layout>
-      <div className="bg-zinc-800 h-full">
-        <Header title="Sobre" />
+      <div className="bg-zinc-900 h-full">
+        <Header title="Sobre Mim" />
         <div className="p-4">
           <div className="flex p-5">
             <div className="flex-1 p-5">
@@ -37,7 +37,7 @@ export default function AboutPage() {
                 <li>Telefone: +55 (15) 99778-1428</li>
               </ul>
               <Button
-                className="bg-zinc-800 font-bold w-80 mt-4"
+                className="bg-zinc-700 border-0 shadow-lg font-bold w-80 mt-4 hover:bg-zinc-800 hover:text-white"
                 variant="outline"
               >
                 Baixar CV
@@ -46,53 +46,62 @@ export default function AboutPage() {
           </div>
         </div>
 
-        <div className=" text-white bg-zinc-800 ms-14">
+        <div className=" text-white bg-zinc-900 ms-14">
           <h1 className="text-2xl">Principais competências</h1>
 
           <div className="flex mt-2">
-            <div className="flex flex-col justify-center items-center text-center w-20 h-20 mt-5 me-5">
+            <div className="bg-zinc-800 flex flex-col justify-center items-center text-center w-20 h-20 mt-5 me-5 shadow-lg rounded">
               <img
                 src="/images/react-logo-sf.png"
                 alt="React.js Logo"
-                className="w-12 object-contain"
+                className="w-10 object-contain"
               />
-              <div className="mt-3">React.js</div>
+              <div className="mt-2 text-sm text-white">React.js</div>
             </div>
 
-            <div className="flex flex-col justify-center items-center text-center w-20 h-20  mt-5 me-5">
+            <div className="bg-zinc-800 flex flex-col justify-center items-center text-center w-20 h-20 mt-5 me-5 shadow-lg rounded">
               <img
                 src="/images/js-logo.png"
                 alt="Javascript Logo"
-                className="w-12 rounded-xl object-contain"
+                className="w-10 rounded-xl object-contain"
               />
-              <div className="mt-3">Javascript</div>
+              <div className="mt-2 text-sm text-white">Javascript</div>
             </div>
 
-            <div className="flex flex-col justify-center items-center text-center w-20 h-20 mt-5 me-5">
-              <img
-                src="/images/next-logo.png"
-                alt="Next.js Logo"
-                className="w-full rounded-full h-full object-contain"
-              />
-              <div className="mt-5">Next.js</div>
-            </div>
-
-            <div className="flex flex-col justify-center items-center text-center w-20 h-20 mt-5 me-5">
+            <div className="bg-zinc-800 flex flex-col justify-center items-center text-center w-20 h-20 mt-5 me-5 shadow-lg rounded">
               <img
                 src="/images/ts-logo.png"
                 alt="Typescript Logo"
-                className="w-12 h-16 rounded-xl object-contain"
+                className="w-10 rounded-xl object-contain"
               />
-              <div className="mt-3">Typescript</div>
+              <div className="mt-2 text-sm text-white">Typescript</div>
             </div>
 
-            <div className="flex flex-col justify-center items-center text-center w-20 h-20 mt-5">
+            <div className="bg-zinc-800 flex flex-col justify-center items-center text-center w-20 h-20 mt-5 me-5 shadow-lg rounded">
+              <img
+                src="/images/nextjs-logo.png"
+                alt="Next.js Logo"
+                className="w-10 rounded-xl object-contain"
+              />
+              <div className="mt-2 text-sm text-white">Next.js</div>
+            </div>
+
+            <div className="bg-zinc-800 flex flex-col justify-center items-center text-center w-20 h-20 mt-5 me-5 shadow-lg rounded">
               <img
                 src="/images/tailwind-logo.png"
                 alt="Tailwind Logo"
-                className="w-16 object-contain"
+                className="w-14 rounded-xl object-contain"
               />
-              <div className="mt-5">Tailwind</div>
+              <div className="mt-3 text-sm text-white">Tailwind</div>
+            </div>
+
+            <div className="bg-zinc-800 flex flex-col justify-center items-center text-center w-20 h-20 mt-5 me-5 shadow-lg rounded">
+              <img
+                src="/images/nodejs-logo.png"
+                alt="React.js Logo"
+                className="w-9 object-contain"
+              />
+              <div className="mt-2 text-sm text-white">Node.js</div>
             </div>
           </div>
         </div>
