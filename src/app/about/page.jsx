@@ -1,5 +1,5 @@
 import Header from "@/components/header/header";
-import Layout from "@/components/layout/layout";
+import Layout from "@/components/layout/Layout";
 import { Button } from "@/components/ui/button";
 
 export default function AboutPage() {
