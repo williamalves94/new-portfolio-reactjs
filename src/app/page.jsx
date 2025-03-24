@@ -10,7 +10,7 @@ export default function Home() {
         <div className="flex flex-1">
           <main className="relative flex-1">
             <Image
-              src="/images/image-main1.jpg" // Caminho da imagem na pasta pública
+              src="/images/image-main.jpg" // Caminho da imagem na pasta pública
               alt="Fundo"
               layout="fill" // Preenche o elemento pai
               objectFit="cover" // Ajusta a imagem para cobrir todo o espaço
