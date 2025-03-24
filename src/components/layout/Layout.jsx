@@ -6,7 +6,7 @@ export default function Layout({ children }) {
   return (
     <div className="h-screen flex">
       <aside className="w-44 bg-zinc-900 text-white">
-        <header>
+        <header className="">
           <Image
             src="/images/perfil-one.jpg"
             alt="Perfil"
