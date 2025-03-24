@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Layout({ children }) {
   return (
     <div className="h-screen flex">
-      <aside className="w-44 bg-zinc-950 text-white">
+      <aside className="w-44 bg-zinc-900 text-white">
         <header>
           <Image
             src="/images/perfil-one.jpg"
@@ -13,19 +13,22 @@ export default function Layout({ children }) {
             width={180}
             height={150}
           />
-          <div className="bg-zinc-500 p-1 text-center">
+          <div className="bg-zinc-600 p-1 text-center">
             <div className="font-bold">William Alves</div>
           </div>
         </header>
-        <nav className="flex flex-col p-2 mt-4">
+        <nav className="bg-zinc-900 flex flex-col p-2 mt-4">
           <Link href="/" passHref>
-            <Button className="bg-zinc-500 font-bold w-full" variant="outline">
+            <Button
+              className="bg-zinc-600 border-0 shadow-lg border-0 shadow-lg hover:bg-zinc-700 hover:text-white font-bold w-full"
+              variant="outline"
+            >
               Inicio
             </Button>
           </Link>
           <Link href="/about" passHref>
             <Button
-              className="mt-5 bg-zinc-500 font-bold w-full"
+              className="mt-5 bg-zinc-600 border-0 shadow-lg border-0 shadow-lg hover:bg-zinc-700 hover:text-white font-bold w-full"
               variant="outline"
             >
               Sobre
@@ -33,7 +36,7 @@ export default function Layout({ children }) {
           </Link>
           <Link href="/experiences" passHref>
             <Button
-              className="mt-5 bg-zinc-500 font-bold w-full"
+              className="mt-5 bg-zinc-600 border-0 shadow-lg border-0 shadow-lg hover:bg-zinc-700 hover:text-white font-bold w-full"
               variant="outline"
             >
               Experiencias
@@ -41,7 +44,7 @@ export default function Layout({ children }) {
           </Link>
           <Link href="/projects" passHref>
             <Button
-              className="mt-5 bg-zinc-500 font-bold w-full"
+              className="mt-5 bg-zinc-600 border-0 shadow-lg border-0 shadow-lg hover:bg-zinc-700 hover:text-white font-bold w-full"
               variant="outline"
             >
               Projetos
@@ -49,7 +52,7 @@ export default function Layout({ children }) {
           </Link>
           <Link href="/contact" passHref>
             <Button
-              className="mt-5 bg-zinc-500 font-bold w-full"
+              className="mt-5 bg-zinc-600 border-0 shadow-lg border-0 shadow-lg hover:bg-zinc-700 hover:text-white font-bold w-full"
               variant="outline"
             >
               Contato
