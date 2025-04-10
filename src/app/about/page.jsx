@@ -14,15 +14,18 @@ export default function AboutPage() {
                 Desenvolvedor Front-end
               </h1>
               <h1 className="text-white">
-                Olá! Sou William, tenho 29 anos, atualmente morando em
-                Sorocaba-SP. Sou desenvolvedor Front-end focado em React, estou
-                estudando programação há 2 anos e meio e nesse período trabalhei
-                em duas empresas como Desenvolvedor Front-end Junior ReactJS. No
-                momento estou estudando JavaScript, ReactJS e NodeJS, e
-                futuramente pretendo ampliar ainda mais meus conhecimentos em
-                Tecnologias e Frameworks voltadas para o Back-end, e no momento
-                meu principal objetivo é voltar para o mercado de trabalho como
-                Desenvolvedor Front-end ReactJS.
+                Olá! Me chamo William, tenho 30 anos e sou Desenvolvedor Front-end focado em React,
+                atualmente residindo em Sorocaba-SP. Estudo programação há cerca de 3 anos e meio e, nesse período,
+                atuei como Desenvolvedor Front-end Júnior em três empresas, trabalhando com ReactJS.
+
+                Tenho conhecimentos sólidos em JavaScript, React.js, Next.js, TypeScript e Tailwind css.
+                Estou sempre em busca de evolução e, no momento, estou aprofundando meus conhecimentos em
+                tecnologias Front-end e Back-end enquanto curso a formação Full Stack da RocketseatOne, da Rocketseat,
+                com foco em desenvolvimento completo de aplicações. Essa jornada tem me proporcionado uma base sólida para,
+                em breve, ampliar minha atuação também na área de Back-end.
+
+                Meu principal objetivo no momento é contribuir com projetos como Desenvolvedor Front-end,
+                aplicando minhas habilidades para criar interfaces modernas, performáticas e com ótima experiência para o usuário.
               </h1>
             </div>
             <div className="flex-2 text-white p-5">

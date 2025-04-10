@@ -8,7 +8,7 @@ export default function ExperiencesPage() {
         <Header title="Experiências" />
         <div className="pr-12 pl-12 pb-12">
           <div className="flex flex-col text-white mt-14 rounded-lg p-6 shadow-lg bg-zinc-700">
-            <div className="flex ms-40">
+            <div className="flex ms-40 mt-8">
               <div className="flex flex-col justify-between h-100 me-10 border-r-2 border-gray-600 pr-6">
                 <span className="text-sm">10/2024</span>
                 <span className="text-sm">07/2024</span>
@@ -30,14 +30,14 @@ export default function ExperiencesPage() {
               </div>
             </div>
 
-            <div className="flex ms-40 mt-8">
+            <div className="flex ms-40 mt-14">
               <div className="flex flex-col justify-between h-100 me-10 border-r-2 border-gray-600 pr-6">
                 <span className="text-sm">07/2023</span>
                 <span className="text-sm">08/2022</span>
               </div>
               <div>
                 <h1 className="font-bold">
-                  Desenvolvedor Front-end Júnior ReactJS Na Bacic Commerce
+                  Desenvolvedor Front-end React.js Júnior na Bacic Commerce
                   Serviços de Informações da Internet LTDA.
                 </h1>
                 <span className="text-sm text-gray-300">São Paulo, Brasil</span>
@@ -51,20 +51,22 @@ export default function ExperiencesPage() {
               </div>
             </div>
 
-            <div className="flex ms-40 mt-8">
+            <div className="flex ms-40 mt-14 mb-8">
               <div className="flex flex-col justify-between h-100 me-10 border-r-2 border-gray-600 pr-6">
                 <span className="text-sm">06/2022</span>
                 <span className="text-sm">01/2022</span>
               </div>
               <div>
                 <h1 className="font-bold">
-                  Desenvolvedor Front-end ReactJS Na PlugWin Sistemas
+                  Desenvolvedor Front-end React.js Júnior na Bihands Tecnologia e Soluções RFID
                 </h1>
                 <span className="text-sm text-gray-300">
                   Sorocaba, São Paulo, Brasil
                 </span>
                 <p className="text-sm">
-                  Implementei requisições HTTP e integrei APIs REST com Axios.
+                  Integração de APIs REST com Axios para otimizar a comunicação do sistema.
+                  Desenvolvimento de interfaces interativas e responsivas com React.js | JavaScript.
+                  Utilização do Trello para organização e colaboração ágil com a equipe de desenvolvimento.
                 </p>
               </div>
             </div>
