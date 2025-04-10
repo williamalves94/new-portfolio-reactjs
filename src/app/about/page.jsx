@@ -39,12 +39,15 @@ export default function AboutPage() {
                 </li>
                 <li>Telefone: +55 (15) 99778-1428</li>
               </ul>
-              <Button
-                className="bg-zinc-700 border-0 shadow-lg font-bold w-80 mt-4 hover:bg-zinc-800 hover:text-white"
-                variant="outline"
-              >
-                Baixar CV
-              </Button>
+              <a href="/curriculo.pdf" download>
+                <Button
+                  className="bg-zinc-700 border-0 shadow-lg font-bold w-80 mt-4 hover:bg-zinc-800 hover:text-white"
+                  variant="outline"
+                >
+                  Baixar CV
+                </Button>
+              </a>
+
             </div>
           </div>
         </div>
