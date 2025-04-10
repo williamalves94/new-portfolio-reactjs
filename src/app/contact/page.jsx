@@ -8,6 +8,8 @@ import {
   CardContent,
   CardFooter,
 } from "@/components/ui/card";
+import { FiMail, FiPhone, FiMapPin } from "react-icons/fi";
+import { FaLinkedin } from "react-icons/fa";
 
 export default function ContactPage() {
   return (
@@ -32,8 +34,7 @@ export default function ContactPage() {
                       id="nome"
                       type="text"
                       placeholder="Digite seu nome"
-                      className="border p-2 rounded outline-none
-"
+                      className="border p-2 rounded outline-none"
                     />
                   </div>
 
@@ -43,8 +44,7 @@ export default function ContactPage() {
                       id="celular"
                       type="tel"
                       placeholder="Digite seu número"
-                      className="border p-2 rounded outline-none
-"
+                      className="border p-2 rounded outline-none"
                     />
                   </div>
 
@@ -54,8 +54,7 @@ export default function ContactPage() {
                       id="email"
                       type="email"
                       placeholder="Digite seu email"
-                      className="border p-2 rounded outline-none
-"
+                      className="border p-2 rounded outline-none"
                     />
                   </div>
 
@@ -65,8 +64,7 @@ export default function ContactPage() {
                       id="assunto"
                       type="text"
                       placeholder="Digite o assunto"
-                      className="border p-2 rounded outline-none
-"
+                      className="border p-2 rounded outline-none"
                     />
                   </div>
 
@@ -75,8 +73,7 @@ export default function ContactPage() {
                     <textarea
                       id="mensagem"
                       placeholder="Digite sua mensagem"
-                      className="border p-2 rounded h-24 resize-none outline-none
-"
+                      className="border p-2 rounded h-24 resize-none outline-none"
                     ></textarea>
                   </div>
                 </form>
@@ -92,11 +89,40 @@ export default function ContactPage() {
             {/* Espaço para Imagem */}
             <Card className="w-[400px] h-[auto] flex items-center justify-center">
               <CardContent>
-                <img
-                  src="/caminho/para/sua-imagem.jpg"
-                  alt="Imagem ilustrativa"
-                  className="w-full h-auto object-cover rounded"
-                />
+                <h2 className="text-xl font-bold mb-4">Contatos</h2>
+
+                <ul className="space-y-4 text-sm">
+                  {/* Email */}
+                  <li className="flex items-center gap-2">
+                    <FiMail className="text-gray-600" size={18} />
+                    <span>williamcostacardoso94@gmail.com</span>
+                  </li>
+
+                  {/* Celular */}
+                  <li className="flex items-center gap-2">
+                    <FiPhone className="text-gray-600" size={18} />
+                    <span>(15) 99778-1428</span>
+                  </li>
+
+                  {/* LinkedIn */}
+                  <li className="flex items-center gap-2">
+                    <FaLinkedin className="text-blue-700" size={18} />
+                    <a
+                      href="https://www.linkedin.com/in/william-alves-4b7683221/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-600 hover:underline"
+                    >
+                      William Alves
+                    </a>
+                  </li>
+
+                  {/* Localização */}
+                  <li className="flex items-center gap-2">
+                    <FiMapPin className="text-gray-600" size={18} />
+                    <span>Sorocaba - SP</span>
+                  </li>
+                </ul>
               </CardContent>
             </Card>
           </div>
