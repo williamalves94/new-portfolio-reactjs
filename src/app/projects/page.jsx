@@ -20,7 +20,7 @@ export default function ProjectsPage() {
         <div className="h-[calc(100vh-80px)] overflow-y-auto scrollbar-hide">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-14 mb-14 place-items-center">
 
-            <Card className="w-full max-w-xs bg-zinc-700 shadow-lg mx-auto mb-6">
+            <Card className="w-full max-w-xs bg-zinc-700 shadow-lg mx-auto mb-6 border-none">
               <CardHeader className="p-1">
                 <Image
                   src="/images/capa-refund.jpg"
@@ -29,7 +29,7 @@ export default function ProjectsPage() {
                   height={200}
                   className="rounded-t-lg object-cover object-center w-full h-[150px]"
                 />
-                <CardTitle className="">Sistema de Reembolso</CardTitle>
+                <CardTitle className="text-white">Sistema de Reembolso</CardTitle>
                 <CardDescription>
                   <a
                     href="https://github.com/williamalves94/refund-rocketseatone"
@@ -40,20 +40,20 @@ export default function ProjectsPage() {
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <p>
+                <p className="text-white">
                   Aqui vai o conteúdo do seu card. Você pode adicionar qualquer
                   coisa dentro deste espaço.
                 </p>
               </CardContent>
               <CardFooter className="flex justify-end">
                 <button className="text-blue-500">
-                  <a href=""></a>Saiba mais
+                  <a href=""></a>Ver Projeto
                 </button>
               </CardFooter>
             </Card>
 
 
-            <Card className="w-full max-w-xs bg-zinc-700 shadow-lg mx-auto mb-6">
+            <Card className="w-full max-w-xs bg-zinc-700 shadow-lg mx-auto mb-6 border-none">
               <CardHeader className="p-1">
                 <Image
                   src="/images/rick-and-morty-app.jpg"
@@ -84,12 +84,12 @@ export default function ProjectsPage() {
                   target="_blank"
                   className="text-blue-500"
                 >
-                  <button>Saiba mais</button>
+                  <button>Ver Projeto</button>
                 </a>
               </CardFooter>
             </Card>
 
-            <Card className="w-full max-w-xs bg-zinc-700 shadow-lg mx-auto mb-6">
+            <Card className="w-full max-w-xs bg-zinc-700 shadow-lg mx-auto mb-6 border-none">
               <CardHeader className="p-1">
                 <Image
                   src="/images/lotr-app.jpg"
@@ -115,11 +115,11 @@ export default function ProjectsPage() {
                 </p>
               </CardContent>
               <CardFooter className="flex justify-end">
-                <button className="text-blue-500">Saiba mais</button>
+                <button className="text-blue-500">Ver Projeto</button>
               </CardFooter>
             </Card>
 
-            <Card className="w-full max-w-xs bg-zinc-700 shadow-lg mx-auto mb-6">
+            <Card className="w-full max-w-xs bg-zinc-700 shadow-lg mx-auto mb-6 border-none">
               <CardHeader className="p-1">
                 <Image
                   src="/images/first-portfolio.jpg"
@@ -145,11 +145,11 @@ export default function ProjectsPage() {
                 </p>
               </CardContent>
               <CardFooter className="flex justify-end">
-                <button className="text-blue-500">Saiba mais</button>
+                <button className="text-blue-500">Ver Projeto</button>
               </CardFooter>
             </Card>
 
-            <Card className="w-full max-w-xs bg-zinc-700 shadow-lg mx-auto mb-6">
+            <Card className="w-full max-w-xs bg-zinc-700 shadow-lg mx-auto mb-6 border-none">
               <CardHeader className="p-1">
                 <Image
                   src="/images/capa.jpg"
@@ -168,11 +168,11 @@ export default function ProjectsPage() {
                 </p>
               </CardContent>
               <CardFooter className="flex justify-end">
-                <button className="text-blue-500">Saiba mais</button>
+                <button className="text-blue-500">Ver Projeto</button>
               </CardFooter>
             </Card>
 
-            <Card className="w-full max-w-xs bg-zinc-700 shadow-lg mx-auto mb-6">
+            <Card className="w-full max-w-xs bg-zinc-700 shadow-lg mx-auto mb-6 border-none">
               <CardHeader className="p-1">
                 <Image
                   src="/images/capa.jpg"
@@ -191,11 +191,11 @@ export default function ProjectsPage() {
                 </p>
               </CardContent>
               <CardFooter className="flex justify-end">
-                <button className="text-blue-500">Saiba mais</button>
+                <button className="text-blue-500">Ver Projeto</button>
               </CardFooter>
             </Card>
 
-            <Card className="w-full max-w-xs bg-zinc-700 shadow-lg mx-auto mb-6">
+            <Card className="w-full max-w-xs bg-zinc-700 shadow-lg mx-auto mb-6 border-none">
               <CardHeader className="p-1">
                 <Image
                   src="/images/capa.jpg"
@@ -214,11 +214,11 @@ export default function ProjectsPage() {
                 </p>
               </CardContent>
               <CardFooter className="flex justify-end">
-                <button className="text-blue-500">Saiba mais</button>
+                <button className="text-blue-500">Ver Projeto</button>
               </CardFooter>
             </Card>
 
-            <Card className="w-full max-w-xs bg-zinc-700 shadow-lg mx-auto mb-6">
+            <Card className="w-full max-w-xs bg-zinc-700 shadow-lg mx-auto mb-6 border-none">
               <CardHeader className="p-1">
                 <Image
                   src="/images/capa.jpg"
@@ -237,11 +237,11 @@ export default function ProjectsPage() {
                 </p>
               </CardContent>
               <CardFooter className="flex justify-end">
-                <button className="text-blue-500">Saiba mais</button>
+                <button className="text-blue-500">Ver Projeto</button>
               </CardFooter>
             </Card>
 
-            <Card className="w-full max-w-xs bg-zinc-700 shadow-lg mx-auto mb-6">
+            <Card className="w-full max-w-xs bg-zinc-700 shadow-lg mx-auto mb-6 border-none">
               <CardHeader className="p-1">
                 <Image
                   src="/images/capa.jpg"
@@ -260,7 +260,7 @@ export default function ProjectsPage() {
                 </p>
               </CardContent>
               <CardFooter className="flex justify-end">
-                <button className="text-blue-500">Saiba mais</button>
+                <button className="text-blue-500">Ver Projeto</button>
               </CardFooter>
             </Card>
           </div>
