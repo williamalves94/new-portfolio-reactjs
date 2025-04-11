@@ -19,14 +19,15 @@ export default function ProjectsPage() {
 
         <div className="h-[calc(100vh-80px)] overflow-y-auto scrollbar-hide">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-14 mb-14 place-items-center">
-            <Card className="w-[300px] bg-zinc-700 shadow-lg">
-              <CardHeader className="p-2">
+
+            <Card className="w-full max-w-xs bg-zinc-700 shadow-lg mx-auto mb-6">
+              <CardHeader className="p-1">
                 <Image
-                  src="/images/capa-refund.jpg" // Caminho da sua imagem
+                  src="/images/capa-refund.jpg"
                   alt="Descrição da imagem"
                   width={300}
                   height={200}
-                  className="rounded-t-lg object-cover object-center w-[300px] h-[150px]" // Classes de estilo para bordas arredondadas
+                  className="rounded-t-lg object-cover object-center w-full h-[150px]"
                 />
                 <CardTitle className="">Sistema de Reembolso</CardTitle>
                 <CardDescription>
@@ -51,14 +52,15 @@ export default function ProjectsPage() {
               </CardFooter>
             </Card>
 
-            <Card className="shadow-lg w-[300px]">
-              <CardHeader className="p-2">
+
+            <Card className="w-full max-w-xs bg-zinc-700 shadow-lg mx-auto mb-6">
+              <CardHeader className="p-1">
                 <Image
-                  src="/images/rick-and-morty-app.jpg" // Caminho da sua imagem
+                  src="/images/rick-and-morty-app.jpg"
                   alt="Descrição da imagem"
                   width={300}
                   height={200}
-                  className="rounded-t-lg object-cover object-center w-[300px] h-[150px]" // Classes de estilo para bordas arredondadas
+                  className="rounded-t-lg object-cover object-center w-full h-[150px]"
                 />
                 <CardTitle>Rick and Morty Web App</CardTitle>
                 <CardDescription>
@@ -87,14 +89,14 @@ export default function ProjectsPage() {
               </CardFooter>
             </Card>
 
-            <Card className="shadow-lg w-[300px]">
-              <CardHeader className="p-2">
+            <Card className="w-full max-w-xs bg-zinc-700 shadow-lg mx-auto mb-6">
+              <CardHeader className="p-1">
                 <Image
-                  src="/images/lotr-app.jpg" // Caminho da sua imagem
+                  src="/images/lotr-app.jpg"
                   alt="Descrição da imagem"
                   width={300}
                   height={200}
-                  className="rounded-t-lg object-cover object-center w-[300px] h-[150px]" // Classes de estilo para bordas arredondadas
+                  className="rounded-t-lg object-cover object-center w-full h-[150px]"
                 />
                 <CardTitle>The Lord of The Rings Web Page</CardTitle>
                 <CardDescription>
@@ -117,14 +119,14 @@ export default function ProjectsPage() {
               </CardFooter>
             </Card>
 
-            <Card className="shadow-lg w-[300px]">
-              <CardHeader className="p-2">
+            <Card className="w-full max-w-xs bg-zinc-700 shadow-lg mx-auto mb-6">
+              <CardHeader className="p-1">
                 <Image
-                  src="/images/first-portfolio.jpg" // Caminho da sua imagem
+                  src="/images/first-portfolio.jpg"
                   alt="Descrição da imagem"
                   width={300}
                   height={200}
-                  className="rounded-t-lg object-cover object-center w-[300px] h-[150px]" // Classes de estilo para bordas arredondadas
+                  className="rounded-t-lg object-cover object-center w-full h-[150px]"
                 />
                 <CardTitle>Meu Primeiro Portfolio</CardTitle>
                 <CardDescription>
@@ -147,14 +149,14 @@ export default function ProjectsPage() {
               </CardFooter>
             </Card>
 
-            <Card className="shadow-lg w-[300px]">
-              <CardHeader className="p-2">
+            <Card className="w-full max-w-xs bg-zinc-700 shadow-lg mx-auto mb-6">
+              <CardHeader className="p-1">
                 <Image
-                  src="/images/capa.jpg" // Caminho da sua imagem
+                  src="/images/capa.jpg"
                   alt="Descrição da imagem"
                   width={300}
                   height={200}
-                  className="rounded-t-lg object-cover object-center w-[300px] h-[150px]" // Classes de estilo para bordas arredondadas
+                  className="rounded-t-lg object-cover object-center w-full h-[150px]"
                 />
                 <CardTitle>Exemplo de Card</CardTitle>
                 <CardDescription>Descrição simples aqui.</CardDescription>
@@ -170,14 +172,14 @@ export default function ProjectsPage() {
               </CardFooter>
             </Card>
 
-            <Card className="shadow-lg w-[300px]">
-              <CardHeader className="p-2">
+            <Card className="w-full max-w-xs bg-zinc-700 shadow-lg mx-auto mb-6">
+              <CardHeader className="p-1">
                 <Image
-                  src="/images/capa.jpg" // Caminho da sua imagem
+                  src="/images/capa.jpg"
                   alt="Descrição da imagem"
                   width={300}
                   height={200}
-                  className="rounded-t-lg object-cover object-center w-[300px] h-[150px]" // Classes de estilo para bordas arredondadas
+                  className="rounded-t-lg object-cover object-center w-full h-[150px]"
                 />
                 <CardTitle>Exemplo de Card</CardTitle>
                 <CardDescription>Descrição simples aqui.</CardDescription>
@@ -193,14 +195,14 @@ export default function ProjectsPage() {
               </CardFooter>
             </Card>
 
-            <Card className="shadow-lg w-[300px]">
-              <CardHeader className="p-2">
+            <Card className="w-full max-w-xs bg-zinc-700 shadow-lg mx-auto mb-6">
+              <CardHeader className="p-1">
                 <Image
-                  src="/images/capa.jpg" // Caminho da sua imagem
+                  src="/images/capa.jpg"
                   alt="Descrição da imagem"
                   width={300}
                   height={200}
-                  className="rounded-t-lg object-cover object-center w-[300px] h-[150px]" // Classes de estilo para bordas arredondadas
+                  className="rounded-t-lg object-cover object-center w-full h-[150px]"
                 />
                 <CardTitle>Exemplo de Card</CardTitle>
                 <CardDescription>Descrição simples aqui.</CardDescription>
@@ -216,14 +218,14 @@ export default function ProjectsPage() {
               </CardFooter>
             </Card>
 
-            <Card className="shadow-lg w-[300px]">
-              <CardHeader className="p-2">
+            <Card className="w-full max-w-xs bg-zinc-700 shadow-lg mx-auto mb-6">
+              <CardHeader className="p-1">
                 <Image
-                  src="/images/capa.jpg" // Caminho da sua imagem
+                  src="/images/capa.jpg"
                   alt="Descrição da imagem"
                   width={300}
                   height={200}
-                  className="rounded-t-lg object-cover object-center w-[300px] h-[150px]" // Classes de estilo para bordas arredondadas
+                  className="rounded-t-lg object-cover object-center w-full h-[150px]"
                 />
                 <CardTitle>Exemplo de Card</CardTitle>
                 <CardDescription>Descrição simples aqui.</CardDescription>
@@ -239,14 +241,14 @@ export default function ProjectsPage() {
               </CardFooter>
             </Card>
 
-            <Card className="shadow-lg w-[300px]">
-              <CardHeader className="p-2">
+            <Card className="w-full max-w-xs bg-zinc-700 shadow-lg mx-auto mb-6">
+              <CardHeader className="p-1">
                 <Image
-                  src="/images/capa.jpg" // Caminho da sua imagem
+                  src="/images/capa.jpg"
                   alt="Descrição da imagem"
                   width={300}
                   height={200}
-                  className="rounded-t-lg object-cover object-center w-[300px] h-[150px]" // Classes de estilo para bordas arredondadas
+                  className="rounded-t-lg object-cover object-center w-full h-[150px]"
                 />
                 <CardTitle>Exemplo de Card</CardTitle>
                 <CardDescription>Descrição simples aqui.</CardDescription>
