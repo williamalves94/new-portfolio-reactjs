@@ -14,7 +14,7 @@ import "./scrollbar-style.css";
 export default function ProjectsPage() {
   return (
     <Layout>
-      <div className="h-screen bg-zinc-200 overflow-hidden">
+      <div className="h-screen bg-zinc-800 overflow-hidden">
         <Header title="Projetos" />
 
         <div className="h-[calc(100vh-80px)] overflow-y-auto scrollbar-hide">

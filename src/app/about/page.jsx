@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 export default function AboutPage() {
   return (
     <Layout>
-      <div className="bg-zinc-900 h-full">
+      <div className="bg-zinc-800 h-full">
         <Header title="Sobre Mim" />
         <div className="p-4">
           <div className="flex p-5">
@@ -52,11 +52,11 @@ export default function AboutPage() {
           </div>
         </div>
 
-        <div className=" text-white bg-zinc-900 ms-14">
+        <div className=" text-white bg-zinc-800 ms-14">
           <h1 className="text-2xl">Principais competências</h1>
 
           <div className="flex mt-2">
-            <div className="bg-zinc-800 flex flex-col justify-center items-center text-center w-20 h-20 mt-5 me-5 shadow-lg rounded">
+            <div className="bg-zinc-700 flex flex-col justify-center items-center text-center w-20 h-20 mt-5 me-5 shadow-lg rounded">
               <img
                 src="/images/react-logo-sf.png"
                 alt="React.js Logo"
@@ -65,7 +65,7 @@ export default function AboutPage() {
               <div className="mt-2 text-sm text-white">React.js</div>
             </div>
 
-            <div className="bg-zinc-800 flex flex-col justify-center items-center text-center w-20 h-20 mt-5 me-5 shadow-lg rounded">
+            <div className="bg-zinc-700 flex flex-col justify-center items-center text-center w-20 h-20 mt-5 me-5 shadow-lg rounded">
               <img
                 src="/images/js-logo.png"
                 alt="Javascript Logo"
@@ -74,7 +74,7 @@ export default function AboutPage() {
               <div className="mt-2 text-sm text-white">Javascript</div>
             </div>
 
-            <div className="bg-zinc-800 flex flex-col justify-center items-center text-center w-20 h-20 mt-5 me-5 shadow-lg rounded">
+            <div className="bg-zinc-700 flex flex-col justify-center items-center text-center w-20 h-20 mt-5 me-5 shadow-lg rounded">
               <img
                 src="/images/ts-logo.png"
                 alt="Typescript Logo"
@@ -83,7 +83,7 @@ export default function AboutPage() {
               <div className="mt-2 text-sm text-white">Typescript</div>
             </div>
 
-            <div className="bg-zinc-800 flex flex-col justify-center items-center text-center w-20 h-20 mt-5 me-5 shadow-lg rounded">
+            <div className="bg-zinc-700 flex flex-col justify-center items-center text-center w-20 h-20 mt-5 me-5 shadow-lg rounded">
               <img
                 src="/images/nextjs-logo.png"
                 alt="Next.js Logo"
@@ -92,7 +92,7 @@ export default function AboutPage() {
               <div className="mt-2 text-sm text-white">Next.js</div>
             </div>
 
-            <div className="bg-zinc-800 flex flex-col justify-center items-center text-center w-20 h-20 mt-5 me-5 shadow-lg rounded">
+            <div className="bg-zinc-700 flex flex-col justify-center items-center text-center w-20 h-20 mt-5 me-5 shadow-lg rounded">
               <img
                 src="/images/tailwind-logo.png"
                 alt="Tailwind Logo"
@@ -101,13 +101,21 @@ export default function AboutPage() {
               <div className="mt-3 text-sm text-white">Tailwind</div>
             </div>
 
-            <div className="bg-zinc-800 flex flex-col justify-center items-center text-center w-20 h-20 mt-5 me-5 shadow-lg rounded">
+            <div className="bg-zinc-700 flex flex-col justify-center items-center text-center w-20 h-20 mt-5 me-5 shadow-lg rounded">
               <img
                 src="/images/nodejs-logo.png"
                 alt="React.js Logo"
                 className="w-9 object-contain"
               />
               <div className="mt-2 text-sm text-white">Node.js</div>
+            </div>
+            <div className="bg-zinc-700 flex flex-col justify-center items-center text-center w-20 h-20 mt-5 me-5 shadow-lg rounded">
+              <img
+                src="/images/postgre.png"
+                alt="React.js Logo"
+                className="w-9 object-contain"
+              />
+              <div className="mt-2 text-sm text-white">Postgre</div>
             </div>
           </div>
         </div>
