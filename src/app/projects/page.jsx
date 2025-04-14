@@ -23,13 +23,36 @@ export default function ProjectsPage() {
             <Card className="w-full max-w-xs bg-zinc-700 shadow-lg mx-auto mb-6 border-none">
               <CardHeader className="p-1">
                 <Image
+                  src="/images/hairday.jpg"
+                  alt="Descrição da imagem"
+                  width={300}
+                  height={200}
+                  className="rounded-t-lg object-cover object-center w-full h-[150px]"
+                />
+                <CardTitle className="text-white text-center">Hair Day Agendamentos</CardTitle>
+                <CardDescription>Descrição simples aqui.</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p>
+                  Aqui vai o conteúdo do seu card. Você pode adicionar qualquer
+                  coisa dentro deste espaço.
+                </p>
+              </CardContent>
+              <CardFooter className="flex justify-end">
+                <button className="text-blue-500">Ver Projeto</button>
+              </CardFooter>
+            </Card>
+
+            <Card className="w-full max-w-xs bg-zinc-700 shadow-lg mx-auto mb-6 border-none">
+              <CardHeader className="p-1">
+                <Image
                   src="/images/capa-refund.jpg"
                   alt="Descrição da imagem"
                   width={300}
                   height={200}
                   className="rounded-t-lg object-cover object-center w-full h-[150px]"
                 />
-                <CardTitle className="text-white">Sistema de Reembolso</CardTitle>
+                <CardTitle className="text-white text-center">Sistema de Reembolso</CardTitle>
                 <CardDescription>
                   <a
                     href="https://github.com/williamalves94/refund-rocketseatone"
@@ -62,13 +85,14 @@ export default function ProjectsPage() {
                   height={200}
                   className="rounded-t-lg object-cover object-center w-full h-[150px]"
                 />
-                <CardTitle>Rick and Morty Web App</CardTitle>
+                <CardTitle className="text-cyanBlue text-center">Rick and Morty Web App</CardTitle>
                 <CardDescription>
                   <a
+
                     href="https://github.com/williamalves94/rick-and-morty-web"
                     target="_blank"
                   >
-                    Ver Código Fonte
+                    <p className="text-center">Ver Código Fonte</p>
                   </a>
                 </CardDescription>
               </CardHeader>
@@ -82,7 +106,7 @@ export default function ProjectsPage() {
                 <a
                   href="https://azs-web-rickandmorty-green.vercel.app/"
                   target="_blank"
-                  className="text-blue-500"
+                  className="text-cyanBlue"
                 >
                   <button>Ver Projeto</button>
                 </a>
@@ -98,7 +122,7 @@ export default function ProjectsPage() {
                   height={200}
                   className="rounded-t-lg object-cover object-center w-full h-[150px]"
                 />
-                <CardTitle>The Lord of The Rings Web Page</CardTitle>
+                <CardTitle className="text-white text-center">The Lord of The Rings Web Page</CardTitle>
                 <CardDescription>
                   <a
                     href="https://github.com/williamalves94/website-lord-of-the-rings"
@@ -128,7 +152,7 @@ export default function ProjectsPage() {
                   height={200}
                   className="rounded-t-lg object-cover object-center w-full h-[150px]"
                 />
-                <CardTitle>Meu Primeiro Portfolio</CardTitle>
+                <CardTitle className="text-white text-center">Meu Primeiro Portfolio</CardTitle>
                 <CardDescription>
                   <a
                     href="https://github.com/williamalves94/my-portfolio-react"
@@ -137,29 +161,6 @@ export default function ProjectsPage() {
                     Ver Código Fonte
                   </a>
                 </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <p>
-                  Aqui vai o conteúdo do seu card. Você pode adicionar qualquer
-                  coisa dentro deste espaço.
-                </p>
-              </CardContent>
-              <CardFooter className="flex justify-end">
-                <button className="text-blue-500">Ver Projeto</button>
-              </CardFooter>
-            </Card>
-
-            <Card className="w-full max-w-xs bg-zinc-700 shadow-lg mx-auto mb-6 border-none">
-              <CardHeader className="p-1">
-                <Image
-                  src="/images/capa.jpg"
-                  alt="Descrição da imagem"
-                  width={300}
-                  height={200}
-                  className="rounded-t-lg object-cover object-center w-full h-[150px]"
-                />
-                <CardTitle>Exemplo de Card</CardTitle>
-                <CardDescription>Descrição simples aqui.</CardDescription>
               </CardHeader>
               <CardContent>
                 <p>
