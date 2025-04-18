@@ -20,7 +20,7 @@ export default function Layout({ children }) {
         <nav className="bg-zinc-900 flex flex-col p-2 mt-4">
           <Link href="/" passHref>
             <Button
-              className="bg-zinc-600 border-0 shadow-lg shadow-lg hover:bg-zinc-700 hover:text-white font-bold w-full"
+              className="mt-1 bg-zinc-600 shadow-lg border border-transparent hover:border-cyanBlue transition duration-300 hover:bg-zinc-700 hover:text-white font-bold w-full"
               variant="outline"
             >
               Inicio
@@ -28,7 +28,7 @@ export default function Layout({ children }) {
           </Link>
           <Link href="/about" passHref>
             <Button
-              className="mt-5 bg-zinc-600 border-0 shadow-lg shadow-lg hover:bg-zinc-700 hover:text-white font-bold w-full"
+              className="mt-5 bg-zinc-600 shadow-lg border border-transparent hover:border-cyanBlue transition duration-300 hover:bg-zinc-700 hover:text-white font-bold w-full"
               variant="outline"
             >
               Sobre
@@ -36,7 +36,7 @@ export default function Layout({ children }) {
           </Link>
           <Link href="/experiences" passHref>
             <Button
-              className="mt-5 bg-zinc-600 border-0 shadow-lg shadow-lg hover:bg-zinc-700 hover:text-white font-bold w-full"
+              className="mt-5 bg-zinc-600 shadow-lg border border-transparent hover:border-cyanBlue transition duration-300 hover:bg-zinc-700 hover:text-white font-bold w-full"
               variant="outline"
             >
               Experiencias
@@ -44,7 +44,7 @@ export default function Layout({ children }) {
           </Link>
           <Link href="/projects" passHref>
             <Button
-              className="mt-5 bg-zinc-600 border-0 shadow-lg shadow-lg hover:bg-zinc-700 hover:text-white font-bold w-full"
+              className="mt-5 bg-zinc-600 shadow-lg border border-transparent hover:border-cyanBlue transition duration-300 hover:bg-zinc-700 hover:text-white font-bold w-full"
               variant="outline"
             >
               Projetos
@@ -52,7 +52,7 @@ export default function Layout({ children }) {
           </Link>
           <Link href="/contact" passHref>
             <Button
-              className="mt-5 bg-zinc-600 border-0 shadow-lg shadow-lg hover:bg-zinc-700 hover:text-white font-bold w-full"
+              className="mt-5 bg-zinc-600 shadow-lg border border-transparent hover:border-cyanBlue transition duration-300 hover:bg-zinc-700 hover:text-white font-bold w-full"
               variant="outline"
             >
               Contato
