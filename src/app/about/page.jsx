@@ -56,7 +56,7 @@ export default function AboutPage() {
           <h1 className="text-2xl">Principais competências</h1>
 
           <div className="flex mt-2">
-            <div className="bg-zinc-700 flex flex-col justify-center items-center text-center w-20 h-20 mt-5 me-5 shadow-lg rounded">
+            <div className="bg-zinc-700 flex flex-col justify-center items-center text-center w-20 h-20 mt-5 me-5 shadow-lg rounded border border-transparent hover:border-cyanBlue transition duration-300 hover:scale-105">
               <img
                 src="/images/react-logo-sf.png"
                 alt="React.js Logo"
@@ -65,7 +65,7 @@ export default function AboutPage() {
               <div className="mt-2 text-sm text-white">React.js</div>
             </div>
 
-            <div className="bg-zinc-700 flex flex-col justify-center items-center text-center w-20 h-20 mt-5 me-5 shadow-lg rounded">
+            <div className="bg-zinc-700 flex flex-col justify-center items-center text-center w-20 h-20 mt-5 me-5 shadow-lg rounded border border-transparent hover:border-cyanBlue transition duration-300 hover:scale-105">
               <img
                 src="/images/js-logo.png"
                 alt="Javascript Logo"
@@ -74,7 +74,7 @@ export default function AboutPage() {
               <div className="mt-2 text-sm text-white">Javascript</div>
             </div>
 
-            <div className="bg-zinc-700 flex flex-col justify-center items-center text-center w-20 h-20 mt-5 me-5 shadow-lg rounded">
+            <div className="bg-zinc-700 flex flex-col justify-center items-center text-center w-20 h-20 mt-5 me-5 shadow-lg rounded border border-transparent hover:border-cyanBlue transition duration-300 hover:scale-105">
               <img
                 src="/images/ts-logo.png"
                 alt="Typescript Logo"
@@ -83,7 +83,7 @@ export default function AboutPage() {
               <div className="mt-2 text-sm text-white">Typescript</div>
             </div>
 
-            <div className="bg-zinc-700 flex flex-col justify-center items-center text-center w-20 h-20 mt-5 me-5 shadow-lg rounded">
+            <div className="bg-zinc-700 flex flex-col justify-center items-center text-center w-20 h-20 mt-5 me-5 shadow-lg rounded border border-transparent hover:border-cyanBlue transition duration-300 hover:scale-105">
               <img
                 src="/images/nextjs-logo.png"
                 alt="Next.js Logo"
@@ -92,7 +92,7 @@ export default function AboutPage() {
               <div className="mt-2 text-sm text-white">Next.js</div>
             </div>
 
-            <div className="bg-zinc-700 flex flex-col justify-center items-center text-center w-20 h-20 mt-5 me-5 shadow-lg rounded">
+            <div className="bg-zinc-700 flex flex-col justify-center items-center text-center w-20 h-20 mt-5 me-5 shadow-lg rounded border border-transparent hover:border-cyanBlue transition duration-300 hover:scale-105">
               <img
                 src="/images/tailwind-logo.png"
                 alt="Tailwind Logo"
@@ -101,7 +101,7 @@ export default function AboutPage() {
               <div className="mt-3 text-sm text-white">Tailwind</div>
             </div>
 
-            <div className="bg-zinc-700 flex flex-col justify-center items-center text-center w-20 h-20 mt-5 me-5 shadow-lg rounded">
+            <div className="bg-zinc-700 flex flex-col justify-center items-center text-center w-20 h-20 mt-5 me-5 shadow-lg rounded border border-transparent hover:border-cyanBlue transition duration-300 hover:scale-105">
               <img
                 src="/images/nodejs-logo.png"
                 alt="React.js Logo"
@@ -109,7 +109,7 @@ export default function AboutPage() {
               />
               <div className="mt-2 text-sm text-white">Node.js</div>
             </div>
-            <div className="bg-zinc-700 flex flex-col justify-center items-center text-center w-20 h-20 mt-5 me-5 shadow-lg rounded">
+            <div className="bg-zinc-700 flex flex-col justify-center items-center text-center w-20 h-20 mt-5 me-5 shadow-lg rounded border border-transparent hover:border-cyanBlue transition duration-300 hover:scale-105">
               <img
                 src="/images/postgre.png"
                 alt="React.js Logo"
