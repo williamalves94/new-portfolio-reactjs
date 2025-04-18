@@ -20,7 +20,8 @@ export default function ProjectsPage() {
         <div className="h-[calc(100vh-80px)] overflow-y-auto scrollbar-hide">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-14 mb-14 place-items-center">
 
-            <Card className="w-full max-w-xs bg-zinc-700 shadow-lg mx-auto mb-6 border-none">
+            <Card className="w-full max-w-xs bg-zinc-700 shadow-lg mx-auto mb-6 border border-transparent hover:border-cyanBlue transition duration-300 hover:scale-105 hover:shadow-xl">
+
               <CardHeader className="p-1">
                 <Image
                   src="/images/hairday.jpg"
@@ -43,7 +44,7 @@ export default function ProjectsPage() {
               </CardFooter>
             </Card>
 
-            <Card className="w-full max-w-xs bg-zinc-700 shadow-lg mx-auto mb-6 border-none">
+            <Card className="w-full max-w-xs bg-zinc-700 shadow-lg mx-auto mb-6 border border-transparent hover:border-cyanBlue transition duration-300 hover:scale-105 hover:shadow-xl">
               <CardHeader className="p-1">
                 <Image
                   src="/images/capa-refund.jpg"
@@ -76,7 +77,7 @@ export default function ProjectsPage() {
             </Card>
 
 
-            <Card className="w-full max-w-xs bg-zinc-700 shadow-lg mx-auto mb-6 border-none">
+            <Card className="w-full max-w-xs bg-zinc-700 shadow-lg mx-auto mb-6 border border-transparent hover:border-cyanBlue transition duration-300 hover:scale-105 hover:shadow-xl">
               <CardHeader className="p-1">
                 <Image
                   src="/images/rick-and-morty-app.jpg"
@@ -113,7 +114,7 @@ export default function ProjectsPage() {
               </CardFooter>
             </Card>
 
-            <Card className="w-full max-w-xs bg-zinc-700 shadow-lg mx-auto mb-6 border-none">
+            <Card className="w-full max-w-xs bg-zinc-700 shadow-lg mx-auto mb-6 border border-transparent hover:border-cyanBlue transition duration-300 hover:scale-105 hover:shadow-xl">
               <CardHeader className="p-1">
                 <Image
                   src="/images/lotr-app.jpg"
@@ -143,7 +144,7 @@ export default function ProjectsPage() {
               </CardFooter>
             </Card>
 
-            <Card className="w-full max-w-xs bg-zinc-700 shadow-lg mx-auto mb-6 border-none">
+            <Card className="w-full max-w-xs bg-zinc-700 shadow-lg mx-auto mb-6 border border-transparent hover:border-cyanBlue transition duration-300 hover:scale-105 hover:shadow-xl">
               <CardHeader className="p-1">
                 <Image
                   src="/images/first-portfolio.jpg"
@@ -173,7 +174,7 @@ export default function ProjectsPage() {
               </CardFooter>
             </Card>
 
-            <Card className="w-full max-w-xs bg-zinc-700 shadow-lg mx-auto mb-6 border-none">
+            <Card className="w-full max-w-xs bg-zinc-700 shadow-lg mx-auto mb-6 border border-transparent hover:border-cyanBlue transition duration-300 hover:scale-105 hover:shadow-xl">
               <CardHeader className="p-1">
                 <Image
                   src="/images/capa.jpg"
@@ -196,7 +197,7 @@ export default function ProjectsPage() {
               </CardFooter>
             </Card>
 
-            <Card className="w-full max-w-xs bg-zinc-700 shadow-lg mx-auto mb-6 border-none">
+            <Card className="w-full max-w-xs bg-zinc-700 shadow-lg mx-auto mb-6 border border-transparent hover:border-cyanBlue transition duration-300 hover:scale-105 hover:shadow-xl">
               <CardHeader className="p-1">
                 <Image
                   src="/images/capa.jpg"
@@ -219,7 +220,7 @@ export default function ProjectsPage() {
               </CardFooter>
             </Card>
 
-            <Card className="w-full max-w-xs bg-zinc-700 shadow-lg mx-auto mb-6 border-none">
+            <Card className="w-full max-w-xs bg-zinc-700 shadow-lg mx-auto mb-6 border border-transparent hover:border-cyanBlue transition duration-300 hover:scale-105 hover:shadow-xl">
               <CardHeader className="p-1">
                 <Image
                   src="/images/capa.jpg"
@@ -242,7 +243,7 @@ export default function ProjectsPage() {
               </CardFooter>
             </Card>
 
-            <Card className="w-full max-w-xs bg-zinc-700 shadow-lg mx-auto mb-6 border-none">
+            <Card className="w-full max-w-xs bg-zinc-700 shadow-lg mx-auto mb-6 border border-transparent hover:border-cyanBlue transition duration-300 hover:scale-105 hover:shadow-xl">
               <CardHeader className="p-1">
                 <Image
                   src="/images/capa.jpg"
