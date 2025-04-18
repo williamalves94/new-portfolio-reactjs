@@ -8,8 +8,8 @@ export default function AboutPage() {
       <div className="bg-zinc-800 h-full">
         <Header title="Sobre Mim" />
         <div className="p-4">
-          <div className="flex p-5">
-            <div className="flex-1 p-5">
+          <div className="flex p-5 gap-8">
+            <div className="bg-zinc-700 flex-1 p-5 shadow-lg mx-auto mb-6 border border-transparent hover:border-cyanBlue transition duration-300 hover:scale-70 hover:shadow-xl rounded-lg">
               <h1 className="text-white text-2xl mt-5 mb-5">
                 Desenvolvedor Front-end
               </h1>
@@ -28,20 +28,20 @@ export default function AboutPage() {
                 aplicando minhas habilidades para criar interfaces modernas, performáticas e com ótima experiência para o usuário.
               </h1>
             </div>
-            <div className="flex-2 text-white p-5">
+            <div className=" bg-zinc-700 p-5 shadow-lg mb-6 border border-transparent hover:border-cyanBlue transition duration-300 hover:scale-70 hover:shadow-xl rounded-lg">
               <ul>
-                <h1 className="text-2xl mt-5 mb-5">Informações Pessoais</h1>
-                <li className="mb-2">Nome: William Alves</li>
-                <li className="mb-2">Idade: 30</li>
-                <li className="mb-2">Endereço: Sorocaba-SP, Brasil</li>
-                <li className="mb-2">
+                <h1 className="text-2xl mt-5 mb-5 text-white">Informações Pessoais</h1>
+                <li className="mb-2 text-white">Nome: William Alves</li>
+                <li className="mb-2 text-white">Idade: 30</li>
+                <li className="mb-2 text-white">Endereço: Sorocaba-SP, Brasil</li>
+                <li className="mb-2 text-white">
                   E-mail: williamcostacardoso94@gmail.com
                 </li>
-                <li>Telefone: +55 (15) 99778-1428</li>
+                <li className="mb-2 text-white">Telefone: +55 (15) 99778-1428</li>
               </ul>
               <a href="/curriculo.pdf" download>
                 <Button
-                  className="bg-zinc-700 border-0 shadow-lg font-bold w-80 mt-4 hover:bg-zinc-800 hover:text-white"
+                  className="bg-zinc-800 border-0 shadow-lg font-bold w-80 mt-4 hover:bg-zinc-800 hover:text-white text-white"
                   variant="outline"
                 >
                   Baixar CV
