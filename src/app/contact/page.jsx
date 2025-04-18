@@ -43,69 +43,83 @@ export default function ContactPage() {
         <div className="mt-14">
           <div className="flex justify-around flex-wrap gap-4">
             {/* Formulário */}
-            <Card className="w-[600px] h-[auto]">
+            <Card className="bg-zinc-700 border-0 w-[600px] h-[auto]">
               <CardHeader>
                 <CardTitle>
-                  <h1 className="text-2xl">Envie sua mensagem aqui</h1>
+                  <h1 className="text-2xl text-cyanBlue">Envie sua mensagem aqui</h1>
                 </CardTitle>
-                <CardDescription>
+                <CardDescription className="text-white">
                   Preencha os campos abaixo e entraremos em contato.
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <form className="flex flex-col gap-4" onSubmit={sendEmail}>
-                  <div className="flex flex-col">
-                    <label htmlFor="nome" className="mb-1 text-sm font-bold text-gray-700">
+                  <div className="relative w-full">
+                    <input
+                      type="text"
+                      id="nome"
+                      name="name"
+                      placeholder=" "
+                      required
+                      className="peer w-full border-0 border-b-2 border-gray-300 bg-transparent px-2 pt-4 pb-1 text-white placeholder-transparent focus:border-cyanBlue focus:outline-none"
+                    />
+                    <label
+                      htmlFor="nome"
+                      className="absolute left-2 top-1 text-sm text-white transition-all peer-placeholder-shown:top-4 peer-placeholder-shown:text-base peer-placeholder-shown:text-white peer-focus:top-1 peer-focus:text-sm peer-focus:text-cyanBlue"
+                    >
                       Nome
                     </label>
-                    <input
-                      name="name"
-                      id="nome"
-                      type="text"
-                      placeholder="Digite seu nome"
-                      className="border p-2 rounded outline-none"
-                      required
-                    />
                   </div>
 
-                  <div className="flex flex-col">
-                    <label htmlFor="celular" className="mb-1 text-sm font-bold text-gray-700">
+                  <div className="relative w-full">
+                    <input
+                      type="tel"
+                      id="celular"
+                      name="celular"
+                      placeholder=" "
+                      required
+                      className="peer w-full border-0 border-b-2 border-gray-300 bg-transparent px-2 pt-4 pb-1 text-white placeholder-transparent focus:border-cyanBlue focus:outline-none"
+                    />
+                    <label
+                      htmlFor="celular"
+                      className="absolute left-2 top-1 text-sm text-white transition-all peer-placeholder-shown:top-4 peer-placeholder-shown:text-base peer-placeholder-shown:text-white peer-focus:top-1 peer-focus:text-sm peer-focus:text-cyanBlue"
+                    >
                       Celular
                     </label>
-                    <input
-                      name="phone"
-                      id="celular"
-                      type="tel"
-                      placeholder="Digite seu número"
-                      className="border p-2 rounded outline-none"
-                    />
                   </div>
 
-                  <div className="flex flex-col">
-                    <label htmlFor="email" className="mb-1 text-sm font-bold text-gray-700">
-                      Email
-                    </label>
+                  <div className="relative w-full">
                     <input
-                      name="email"
-                      id="email"
                       type="email"
-                      placeholder="Digite seu email"
-                      className="border p-2 rounded outline-none"
+                      id="email"
+                      name="email"
+                      placeholder=" "
                       required
+                      className="peer w-full border-0 border-b-2 border-gray-300 bg-transparent px-2 pt-4 pb-1 text-white placeholder-transparent focus:border-cyanBlue focus:outline-none"
                     />
+                    <label
+                      htmlFor="email"
+                      className="absolute left-2 top-1 text-sm text-white transition-all peer-placeholder-shown:top-4 peer-placeholder-shown:text-base peer-placeholder-shown:text-white peer-focus:top-1 peer-focus:text-sm peer-focus:text-cyanBlue"
+                    >
+                      E-mail
+                    </label>
                   </div>
 
-                  <div className="flex flex-col">
-                    <label htmlFor="assunto" className="mb-1 text-sm font-bold text-gray-700">
+                  <div className="relative w-full">
+                    <input
+                      type="email"
+                      id="assunto"
+                      name="assunto"
+                      placeholder=" "
+                      required
+                      className="peer w-full border-0 border-b-2 border-gray-300 bg-transparent px-2 pt-4 pb-1 text-white placeholder-transparent focus:border-cyanBlue focus:outline-none"
+                    />
+                    <label
+                      htmlFor="assunto"
+                      className="absolute left-2 top-1 text-sm text-white transition-all peer-placeholder-shown:top-4 peer-placeholder-shown:text-base peer-placeholder-shown:text-white peer-focus:top-1 peer-focus:text-sm peer-focus:text-cyanBlue"
+                    >
                       Assunto
                     </label>
-                    <input
-                      name="subject"
-                      id="assunto"
-                      type="text"
-                      placeholder="Digite o assunto"
-                      className="border p-2 rounded outline-none"
-                    />
                   </div>
 
                   <div className="flex flex-col">
@@ -116,12 +130,14 @@ export default function ContactPage() {
                       name="message"
                       id="mensagem"
                       placeholder="Digite sua mensagem"
-                      className="border p-2 rounded h-24 resize-none outline-none"
+                      className="border p-2 rounded h-24 resize-none outline-none bg-transparent text-white placeholder-gray-400"
                       required
                     ></textarea>
                   </div>
 
-                  <button className="bg-blue-500 w-full text-white px-4 py-2 rounded hover:bg-blue-600 transition">
+
+                  <button
+                    className="bg-zinc-700 w-full border border-cyanBlue font-bold mt-4 hover:bg-zinc-800 px-4 py-2 rounded hover:text-white text-white transition" >
                     Enviar
                   </button>
                 </form>

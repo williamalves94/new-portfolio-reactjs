@@ -41,7 +41,7 @@ export default function AboutPage() {
               </ul>
               <a href="/curriculo.pdf" download>
                 <Button
-                  className="bg-zinc-800 border-0 shadow-lg font-bold w-80 mt-4 hover:bg-zinc-800 hover:text-white text-white"
+                  className="bg-zinc-700 border-cyanBlue shadow-lg font-bold w-80 mt-4 hover:bg-zinc-800 hover:text-white text-white border hover:border-cyanBlue transition duration-300"
                   variant="outline"
                 >
                   Baixar CV
