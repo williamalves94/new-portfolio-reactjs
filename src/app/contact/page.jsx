@@ -75,7 +75,7 @@ export default function ContactPage() {
                     <input
                       type="tel"
                       id="celular"
-                      name="celular"
+                      name="phone"
                       placeholder=" "
                       required
                       className="peer w-full border-0 border-b-2 border-gray-300 bg-transparent px-2 pt-4 pb-1 text-white placeholder-transparent focus:border-cyanBlue focus:outline-none"
@@ -107,9 +107,9 @@ export default function ContactPage() {
 
                   <div className="relative w-full">
                     <input
-                      type="email"
+                      type="text"
                       id="assunto"
-                      name="assunto"
+                      name="subject"
                       placeholder=" "
                       required
                       className="peer w-full border-0 border-b-2 border-gray-300 bg-transparent px-2 pt-4 pb-1 text-white placeholder-transparent focus:border-cyanBlue focus:outline-none"
@@ -127,6 +127,7 @@ export default function ContactPage() {
                       Mensagem
                     </label>
                     <textarea
+                      type="text"
                       name="message"
                       id="mensagem"
                       placeholder="Digite sua mensagem"
@@ -145,8 +146,10 @@ export default function ContactPage() {
             </Card>
 
             {/* Contatos */}
-            <Card className="w-[400px] h-[auto] flex items-center justify-center">
-              <CardContent>
+            <Card className="w-full max-w-sm h-auto p-6 flex flex-col items-start overflow-auto">
+
+
+              <CardContent className="p-0 w-full">
                 <h2 className="text-xl font-bold mb-4">Contatos</h2>
                 <ul className="space-y-4 text-sm">
                   <li className="flex items-center gap-2">
@@ -175,6 +178,7 @@ export default function ContactPage() {
                 </ul>
               </CardContent>
             </Card>
+
           </div>
         </div>
       </div>
