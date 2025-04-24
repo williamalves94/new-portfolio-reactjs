@@ -123,7 +123,7 @@ export default function ContactPage() {
                   </div>
 
                   <div className="flex flex-col">
-                    <label htmlFor="mensagem" className="mb-1 text-sm font-bold text-gray-700">
+                    <label htmlFor="mensagem" className="mb-1 text-sm font-bold text-gray-700 ">
                       Mensagem
                     </label>
                     <textarea
@@ -131,7 +131,7 @@ export default function ContactPage() {
                       name="message"
                       id="mensagem"
                       placeholder="Digite sua mensagem"
-                      className="border p-2 rounded h-24 resize-none outline-none bg-transparent text-white placeholder-gray-400"
+                      className="border border-cyanBlue p-2 rounded h-24 resize-none outline-none bg-transparent text-white placeholder-gray-400"
                       required
                     ></textarea>
                   </div>
@@ -146,34 +146,33 @@ export default function ContactPage() {
             </Card>
 
             {/* Contatos */}
-            <Card className="w-full max-w-sm h-auto p-6 flex flex-col items-start overflow-auto">
+            <Card className="bg-zinc-700 border-0 w-full max-w-sm max-h-fit p-10 flex flex-col items-center">
 
-
-              <CardContent className="p-0 w-full">
-                <h2 className="text-xl font-bold mb-4">Contatos</h2>
+              <CardContent className="p-0 w-full flex flex-col items-center text-center">
+                <h2 className="text-2xl text-cyanBlue font-bold mb-4">Contatos</h2>
                 <ul className="space-y-4 text-sm">
                   <li className="flex items-center gap-2">
-                    <FiMail className="text-gray-600" size={18} />
-                    <span>williamcostacardoso94@gmail.com</span>
+                    <FiMail className="text-cyanBlue" size={20} />
+                    <span className="text-white text-lg">williamcostacardoso94@gmail.com</span>
                   </li>
                   <li className="flex items-center gap-2">
-                    <FiPhone className="text-gray-600" size={18} />
-                    <span>(15) 99778-1428</span>
+                    <FiPhone className="text-cyanBlue" size={20} />
+                    <span className="text-white text-lg">+55 (15) 99778-1428</span>
                   </li>
                   <li className="flex items-center gap-2">
-                    <FaLinkedin className="text-blue-700" size={18} />
+                    <FaLinkedin className="text-cyanBlue" size={20} />
                     <a
                       href="https://www.linkedin.com/in/william-alves-4b7683221/"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-blue-600 hover:underline"
+                      className="text-white hover:underline hover:text-cyanBlue text-lg"
                     >
                       William Alves
                     </a>
                   </li>
                   <li className="flex items-center gap-2">
-                    <FiMapPin className="text-gray-600" size={18} />
-                    <span>Sorocaba - SP</span>
+                    <FiMapPin className="text-cyanBlue" size={20} />
+                    <span className="text-white text-lg">Sorocaba - SP</span>
                   </li>
                 </ul>
               </CardContent>
