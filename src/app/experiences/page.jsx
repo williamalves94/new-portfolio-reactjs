@@ -9,15 +9,15 @@ export default function ExperiencesPage() {
         <div className="pr-12 pl-12 pb-12">
           <div className="flex flex-col text-white mt-14 rounded-lg p-6 shadow-lg bg-zinc-700">
             <div className="flex ms-40 mt-8">
-              <div className="flex flex-col justify-between h-100 me-10 border-r-2 border-gray-600 pr-6">
+              <div className="flex flex-col justify-between h-100 me-10 border-r-2 border-cyanBlue pr-6">
                 <span className="text-sm">10/2024</span>
                 <span className="text-sm">07/2024</span>
               </div>
               <div>
-                <h1 className="font-bold">
+                <h1 className="font-bold text-white">
                   Desenvolvedor Front-end Na PlugWin Sistemas
                 </h1>
-                <span className="text-sm text-gray-300">
+                <span className="text-sm text-cyanBlue">
                   Meruoca, Ceará, Brasil
                 </span>
                 <p className="mt-1 text-sm">
@@ -31,16 +31,16 @@ export default function ExperiencesPage() {
             </div>
 
             <div className="flex ms-40 mt-14">
-              <div className="flex flex-col justify-between h-100 me-10 border-r-2 border-gray-600 pr-6">
+              <div className="flex flex-col justify-between h-100 me-10 border-r-2 border-cyanBlue pr-6">
                 <span className="text-sm">07/2023</span>
                 <span className="text-sm">08/2022</span>
               </div>
               <div>
-                <h1 className="font-bold">
+                <h1 className="font-bold ">
                   Desenvolvedor Front-end React.js Júnior na Bacic Commerce
                   Serviços de Informações da Internet LTDA.
                 </h1>
-                <span className="text-sm text-gray-300">São Paulo, Brasil</span>
+                <span className="text-sm text-cyanBlue">São Paulo, Brasil</span>
                 <p className="text-sm">
                   Desenvolvi interfaces de usuário responsivas e dinâmicas,{" "}
                   <br />
@@ -52,7 +52,7 @@ export default function ExperiencesPage() {
             </div>
 
             <div className="flex ms-40 mt-14 mb-8">
-              <div className="flex flex-col justify-between h-100 me-10 border-r-2 border-gray-600 pr-6">
+              <div className="flex flex-col justify-between h-100 me-10 border-r-2 border-cyanBlue pr-6">
                 <span className="text-sm">06/2022</span>
                 <span className="text-sm">01/2022</span>
               </div>
@@ -60,7 +60,7 @@ export default function ExperiencesPage() {
                 <h1 className="font-bold">
                   Desenvolvedor Front-end React.js Júnior na Bihands Tecnologia e Soluções RFID
                 </h1>
-                <span className="text-sm text-gray-300">
+                <span className="text-sm text-cyanBlue">
                   Sorocaba, São Paulo, Brasil
                 </span>
                 <p className="text-sm">
