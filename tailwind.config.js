@@ -13,7 +13,7 @@ module.exports = {
 			colors: {
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
-				cyanBlue: 'oklch(74.6% 0.16 232.661)',
+				cyanBlue: 'oklch(82.8% 0.111 230.318)',
 				card: {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
