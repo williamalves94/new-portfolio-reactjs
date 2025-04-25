@@ -8,9 +8,9 @@ export default function AboutPage() {
       <div className="bg-zinc-800 h-full">
         <Header title="Sobre Mim" />
         <div className="p-4">
-          <div className="flex p-5 gap-8">
+          <div className="flex p-5 gap-8 mt-10">
             <div className="bg-zinc-700 flex-1 p-5 shadow-lg mx-auto mb-6 rounded-lg">
-              <h1 className="text-white text-2xl mt-5 mb-5">
+              <h1 className="text-cyanBlue text-2xl mt-5 mb-5">
                 Desenvolvedor Front-end
               </h1>
               <h1 className="text-white">
@@ -30,7 +30,7 @@ export default function AboutPage() {
             </div>
             <div className=" bg-zinc-700 p-5 shadow-lg mb-6 rounded-lg">
               <ul>
-                <h1 className="text-2xl mt-5 mb-5 text-white">Informações Pessoais</h1>
+                <h1 className="text-2xl mt-5 mb-5 text-cyanBlue">Informações Pessoais</h1>
                 <li className="mb-2 text-white">Nome: William Alves</li>
                 <li className="mb-2 text-white">Idade: 30</li>
                 <li className="mb-2 text-white">Endereço: Sorocaba-SP, Brasil</li>
@@ -52,7 +52,7 @@ export default function AboutPage() {
           </div>
         </div>
 
-        <div className=" text-white bg-zinc-800 ms-14">
+        <div className=" text-cyanBlue bg-zinc-800 ms-14">
           <h1 className="text-2xl">Principais competências</h1>
 
           <div className="flex mt-2">
