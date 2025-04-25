@@ -23,13 +23,36 @@ export default function ProjectsPage() {
             <Card className="w-full max-w-xs bg-zinc-700 shadow-lg mx-auto mb-6 border border-transparent hover:border-cyanBlue transition duration-300 hover:scale-105 hover:shadow-xl">
               <CardHeader className="p-1">
                 <Image
+                  src="/images/fetch-capa.jpg"
+                  alt="Descrição da imagem"
+                  width={300}
+                  height={200}
+                  className="rounded-t-lg object-cover object-center w-full h-[150px]"
+                />
+                <CardTitle className="text-center text-cyanBlue p-1">Fetch Project API</CardTitle>
+                <CardDescription className="text-center">Ver Código Fonte</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p className="text-white">
+                  Aqui vai o conteúdo do seu card. Você pode adicionar qualquer
+                  coisa dentro deste espaço.
+                </p>
+              </CardContent>
+              <CardFooter className="flex justify-end">
+                <button className="text-cyanBlue">Ver Projeto</button>
+              </CardFooter>
+            </Card>
+
+            <Card className="w-full max-w-xs bg-zinc-700 shadow-lg mx-auto mb-6 border border-transparent hover:border-cyanBlue transition duration-300 hover:scale-105 hover:shadow-xl">
+              <CardHeader className="p-1">
+                <Image
                   src="/images/hairday.jpg"
                   alt="Descrição da imagem"
                   width={300}
                   height={200}
                   className="rounded-t-lg object-cover object-center w-full h-[150px]"
                 />
-                <CardTitle className="text-cyanBlue text-center">Hair Day Agendamentos</CardTitle>
+                <CardTitle className="text-cyanBlue text-center p-1">Hair Day Agendamentos</CardTitle>
                 <CardDescription className="text-center">Ver Código Fonte</CardDescription>
               </CardHeader>
               <CardContent>
@@ -52,7 +75,7 @@ export default function ProjectsPage() {
                   height={200}
                   className="rounded-t-lg object-cover object-center w-full h-[150px]"
                 />
-                <CardTitle className="text-cyanBlue text-center">Sistema de Reembolso</CardTitle>
+                <CardTitle className="text-cyanBlue text-center p-1">Sistema de Reembolso</CardTitle>
                 <CardDescription className="text-center">
                   <a
                     href="https://github.com/williamalves94/refund-rocketseatone"
@@ -84,7 +107,7 @@ export default function ProjectsPage() {
                   height={200}
                   className="rounded-t-lg object-cover object-center w-full h-[150px]"
                 />
-                <CardTitle className="text-cyanBlue text-center">Rick and Morty Web App</CardTitle>
+                <CardTitle className="text-cyanBlue text-center p-1">Rick and Morty Web App</CardTitle>
                 <CardDescription>
                   <a
 
@@ -121,7 +144,7 @@ export default function ProjectsPage() {
                   height={200}
                   className="rounded-t-lg object-cover object-center w-full h-[150px]"
                 />
-                <CardTitle className="text-cyanBlue text-center">The Lord of The Rings Web Page</CardTitle>
+                <CardTitle className="text-cyanBlue text-center p-1">The Lord of The Rings Web Page</CardTitle>
                 <CardDescription className="text-center">
                   <a
                     href="https://github.com/williamalves94/website-lord-of-the-rings"
@@ -151,7 +174,7 @@ export default function ProjectsPage() {
                   height={200}
                   className="rounded-t-lg object-cover object-center w-full h-[150px]"
                 />
-                <CardTitle className="text-cyanBlue text-center">Meu Primeiro Portfolio</CardTitle>
+                <CardTitle className="text-cyanBlue text-center p-1">Meu Primeiro Portfolio</CardTitle>
                 <CardDescription className="text-center">
                   <a
                     href="https://github.com/williamalves94/my-portfolio-react"
@@ -181,7 +204,7 @@ export default function ProjectsPage() {
                   height={200}
                   className="rounded-t-lg object-cover object-center w-full h-[150px]"
                 />
-                <CardTitle className="text-center text-cyanBlue">Projeto Node.js</CardTitle>
+                <CardTitle className="text-center text-cyanBlue p-1">Projeto Node.js</CardTitle>
                 <CardDescription className="text-center">Ver Código Fonte</CardDescription>
               </CardHeader>
               <CardContent>
@@ -204,7 +227,7 @@ export default function ProjectsPage() {
                   height={200}
                   className="rounded-t-lg object-cover object-center w-full h-[150px]"
                 />
-                <CardTitle className="text-center text-cyanBlue">Exemplo de Card</CardTitle>
+                <CardTitle className="text-center text-cyanBlue p-1">Exemplo de Card</CardTitle>
                 <CardDescription className="text-center">Ver Código Fonte</CardDescription>
               </CardHeader>
               <CardContent>
@@ -227,30 +250,7 @@ export default function ProjectsPage() {
                   height={200}
                   className="rounded-t-lg object-cover object-center w-full h-[150px]"
                 />
-                <CardTitle className="text-center text-cyanBlue">Exemplo de Card</CardTitle>
-                <CardDescription className="text-center">Ver Código Fonte</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <p className="text-white">
-                  Aqui vai o conteúdo do seu card. Você pode adicionar qualquer
-                  coisa dentro deste espaço.
-                </p>
-              </CardContent>
-              <CardFooter className="flex justify-end">
-                <button className="text-cyanBlue">Ver Projeto</button>
-              </CardFooter>
-            </Card>
-
-            <Card className="w-full max-w-xs bg-zinc-700 shadow-lg mx-auto mb-6 border border-transparent hover:border-cyanBlue transition duration-300 hover:scale-105 hover:shadow-xl">
-              <CardHeader className="p-1">
-                <Image
-                  src="/images/capa.jpg"
-                  alt="Descrição da imagem"
-                  width={300}
-                  height={200}
-                  className="rounded-t-lg object-cover object-center w-full h-[150px]"
-                />
-                <CardTitle className="text-center text-cyanBlue">Exemplo de Card</CardTitle>
+                <CardTitle className="text-center text-cyanBlue p-1">Exemplo de Card</CardTitle>
                 <CardDescription className="text-center">Ver Código Fonte</CardDescription>
               </CardHeader>
               <CardContent>
