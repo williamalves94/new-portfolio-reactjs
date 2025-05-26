@@ -9,7 +9,9 @@ module.exports = {
 	theme: {
 		extend: {
 			// tailwind.config.js
-
+			fontFamily: {
+				roboto: ['Roboto', 'sans-serif'],
+			},
 			colors: {
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',

@@ -23,6 +23,52 @@ export default function ProjectsPage() {
             <Card className="w-full max-w-xs bg-zinc-700 shadow-lg mx-auto mb-6 border border-transparent hover:border-cyanBlue transition duration-300 hover:scale-105 hover:shadow-xl">
               <CardHeader className="p-1">
                 <Image
+                  src="/images/ticket-api-capa.jpg"
+                  alt="Descrição da imagem"
+                  width={300}
+                  height={200}
+                  className="rounded-t-lg object-cover object-center w-full h-[150px]"
+                />
+                <CardTitle className="text-center text-cyanBlue p-1">Ticket API</CardTitle>
+                <CardDescription className="text-center">Ver Código Fonte</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p className="text-white">
+                  Aqui vai o conteúdo do seu card. Você pode adicionar qualquer
+                  coisa dentro deste espaço.
+                </p>
+              </CardContent>
+              <CardFooter className="flex justify-end">
+                <button className="text-cyanBlue">Ver Projeto</button>
+              </CardFooter>
+            </Card>
+
+            <Card className="w-full max-w-xs bg-zinc-700 shadow-lg mx-auto mb-6 border border-transparent hover:border-cyanBlue transition duration-300 hover:scale-105 hover:shadow-xl">
+              <CardHeader className="p-1">
+                <Image
+                  src="/images/crud-capa.jpg"
+                  alt="Descrição da imagem"
+                  width={300}
+                  height={200}
+                  className="rounded-t-lg object-cover object-center w-full h-[150px]"
+                />
+                <CardTitle className="text-center text-cyanBlue p-1">CRUD</CardTitle>
+                <CardDescription className="text-center">Ver Código Fonte</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p className="text-white">
+                  Aqui vai o conteúdo do seu card. Você pode adicionar qualquer
+                  coisa dentro deste espaço.
+                </p>
+              </CardContent>
+              <CardFooter className="flex justify-end">
+                <button className="text-cyanBlue">Ver Projeto</button>
+              </CardFooter>
+            </Card>
+
+            <Card className="w-full max-w-xs bg-zinc-700 shadow-lg mx-auto mb-6 border border-transparent hover:border-cyanBlue transition duration-300 hover:scale-105 hover:shadow-xl">
+              <CardHeader className="p-1">
+                <Image
                   src="/images/fetch-capa.jpg"
                   alt="Descrição da imagem"
                   width={300}
@@ -217,53 +263,6 @@ export default function ProjectsPage() {
                 <button className="text-cyanBlue">Ver Projeto</button>
               </CardFooter>
             </Card>
-
-            <Card className="w-full max-w-xs bg-zinc-700 shadow-lg mx-auto mb-6 border border-transparent hover:border-cyanBlue transition duration-300 hover:scale-105 hover:shadow-xl">
-              <CardHeader className="p-1">
-                <Image
-                  src="/images/capa.jpg"
-                  alt="Descrição da imagem"
-                  width={300}
-                  height={200}
-                  className="rounded-t-lg object-cover object-center w-full h-[150px]"
-                />
-                <CardTitle className="text-center text-cyanBlue p-1">Exemplo de Card</CardTitle>
-                <CardDescription className="text-center">Ver Código Fonte</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <p className="text-white">
-                  Aqui vai o conteúdo do seu card. Você pode adicionar qualquer
-                  coisa dentro deste espaço.
-                </p>
-              </CardContent>
-              <CardFooter className="flex justify-end">
-                <button className="text-cyanBlue">Ver Projeto</button>
-              </CardFooter>
-            </Card>
-
-            <Card className="w-full max-w-xs bg-zinc-700 shadow-lg mx-auto mb-6 border border-transparent hover:border-cyanBlue transition duration-300 hover:scale-105 hover:shadow-xl">
-              <CardHeader className="p-1">
-                <Image
-                  src="/images/capa.jpg"
-                  alt="Descrição da imagem"
-                  width={300}
-                  height={200}
-                  className="rounded-t-lg object-cover object-center w-full h-[150px]"
-                />
-                <CardTitle className="text-center text-cyanBlue p-1">Exemplo de Card</CardTitle>
-                <CardDescription className="text-center">Ver Código Fonte</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <p className="text-white">
-                  Aqui vai o conteúdo do seu card. Você pode adicionar qualquer
-                  coisa dentro deste espaço.
-                </p>
-              </CardContent>
-              <CardFooter className="flex justify-end">
-                <button className="text-cyanBlue">Ver Projeto</button>
-              </CardFooter>
-            </Card>
-
           </div>
         </div>
       </div>
