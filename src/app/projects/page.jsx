@@ -29,7 +29,7 @@ export default function ProjectsPage() {
                   height={200}
                   className="rounded-t-lg object-cover object-center w-full h-[150px]"
                 />
-                <CardTitle className="text-center text-cyanBlue p-1">Manager Ticket API</CardTitle>
+                <CardTitle className="text-center text-cyanBlue p-1">Support Ticket API</CardTitle>
                 <CardDescription className="text-center">Ver Código Fonte</CardDescription>
               </CardHeader>
               <CardContent>
